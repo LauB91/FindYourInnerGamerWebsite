@@ -1,29 +1,39 @@
 # packaging
 pip>=9
-setuptools>=26
-twine
-wheel>=0.29
+# setuptools>=26
+# twine
+# wheel>=0.29
 
-# data science
-numpy
+# # data science
+# numpy
 pandas
-scikit-learn
+# scikit-learn
+bs4
 
-# tests/linter
-black
-coverage
-flake8
-pytest
-yapf
+# # tests/linter
+# black
+# coverage
+# flake8
+# pytest
+# yapf
 
-# API
+# # API
 gcsfs
-google-cloud-storage
-mlflow
-s3fs
+# google-cloud-storage
+# mlflow
+# s3fs
+# fastapi
+# uvicorn
+# docker
+streamlit
 
-# utilities
-six>=1.14
-joblib
-memoized-property
-termcolor
+# # utilities
+# six>=1.14
+# joblib
+# memoized-property
+# termcolor
+
+# nltk
+# unidecode
+# google-cloud-storage
+# fsspec
